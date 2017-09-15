@@ -1,0 +1,56 @@
+html{
+	font-family: sans-serif;
+	background-color: #f9c425;
+}
+#title{
+	font-size: 25px;
+	color: grey;
+	font-weight: bold;
+}
+#font{
+	font-size: 25px;
+}
+#size{
+	font-size: 25px;
+}
+#norm-ex{
+	font-weight: normal;
+	font-size: 25px;
+}
+#sub{
+	color: grey;
+	font-size: 15px;
+}
+.ex{
+	font-size: 25px;
+}
+#bold-ex{
+	font-weight: bold;
+}
+#italic-ex{
+	font-style: italic;
+}
+#ex3{
+	letter-spacing: .3em;
+}
+#ex6{
+	letter-spacing: -.06em;
+}
+#underline-ex{
+	text-decoration: underline;
+}
+#linethru-ex{
+	text-decoration: line-through;
+}
+#overline-ex{
+	text-decoration: overline;
+}
+#uppercase-ex{
+	text-transform: uppercase;
+}
+#lowercase-ex{
+	text-transform: lowercase;
+}
+#capitalize-ex{
+	text-transform: capitalize;
+}
