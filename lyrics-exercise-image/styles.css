@@ -1,0 +1,31 @@
+html{
+	font-family: sans-serif;
+	background-color: #f9c425;
+}
+body {
+    background-image: url("images/Dv6nDFD.jpg");
+    background-repeat: repeat;
+}
+em{
+	color: #808080;
+}
+#song-title{
+	font-size: 36px;
+	font-weight: bold;
+	color: blue;
+}
+#artist-name {
+	font-size: 24px;
+	color: blue;
+}
+.script{
+	color: blue;
+	font-family: sans-serif;
+}
+.italic{
+	color: red;
+	font-style: italic;
+}
+.source {
+	font-size: 12px;
+}
