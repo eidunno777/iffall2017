@@ -123,20 +123,31 @@ a#btn_indiegogo:hover {
 
 a#btn_coke{
 	display: block;
-	opacity: 0.25;
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 a#btn_coke:hover{
-	opacity: 1;
+	filter: none;
 }	
 
+.coke{
+ max-width: 80%;
+}
+
 a#btn_nike{
-	display: block;
-	margin:auto;
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	padding-top: 70px;
+	padding-right: 100px;
 	opacity: 0.25;
 }
 a#btn_nike:hover{
 	opacity: 1;
 }	
+.nike{
+	max-height: 80%
+}
 
 a#btn_lyft{
 	display: block;
@@ -145,4 +156,289 @@ a#btn_lyft{
 	width: 20px;
 	height: 20px;
 
+}
+
+#btn_ibm:hover{
+	opacity: 0.25;
+}
+
+#btn_ibm{
+	display: block;
+	box-sizing: border-box;
+	padding:70px 0px 0px 20px;
+}
+
+.ibm{
+	max-width: 80%;
+}
+
+
+#btn_nerf{
+	display: block;
+	box-sizing: border-box;
+	margin:auto;
+	padding-top:50px;
+}
+
+#btn_nerf:hover{
+	display: inline-block;
+	width:300px;
+	height: 300px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: white;
+}
+
+#btn_oldnavy{
+	display: block;
+	box-sizing: border-box;
+	margin:auto;
+	padding-top: 70px;
+}
+
+.oldnavy{
+	max-width: 80%;
+}
+
+#btn_oldnavy:hover{
+	padding-top: 65px;
+	transform: scale(1.2, 1.2);
+}
+
+#btn_instagram {
+	display:block;
+	margin:auto;
+	margin-top:60px;
+	font-size:80px;
+}
+
+#btn_instagram:hover{
+	font-size:100px;
+	margin-top:50px;
+}
+
+#btn_army {
+	display:block;
+	margin:auto;
+	font-size:80px;
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#btn_army:hover{
+	filter:none;
+}
+
+#btn_apple{
+	display:inline-block;
+	margin:auto;
+	opacity: 0.25;
+	padding-top:20px;
+}
+
+#btn_apple:hover{
+	opacity: 1;
+}
+
+.apple{
+	max-width: 80%;
+}
+
+#btn_moo{
+	display:block;
+	margin:auto;
+	padding-top: 20px;
+	-webkit-transition: -webkit-transform 1s ease-in-out;
+	transition: transform 1s ease-in-out;
+}
+
+#btn_moo:hover{
+    transform: rotateY(360deg)
+}
+
+ #btn_samsung{
+ 	filter:none;
+ }
+
+ #btn_samsung:hover{
+ 	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+ }
+
+#btn_fitbit{
+	display:inline-block;
+	margin:auto;
+	padding-top:20px;
+	-webkit-transition: -webkit-transform 0.5s ease-in-out;
+	transition: transform 0.5s ease-in-out;
+}
+
+#btn_fitbit:hover{
+    -webkit-transform: rotate(20deg); /* Safari */
+}
+
+
+#btn_harley{
+	display:inline-block;
+	margin:auto;
+	padding-top:20px;
+	-webkit-transition: -webkit-transform 1s ease-in-out;
+	transition: transform 1s ease-in-out;
+}
+
+.harley{
+	max-width: 100%;
+}
+
+#btn_harley:hover{
+	-webkit-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+#btn_jimmy{
+	display:inline-block;
+	margin:auto;
+	padding-top:20px;
+	transition: transform 1s ease-in-out;
+}
+
+#btn_jimmy:hover{
+	padding-top:20px;
+	transform:rotate(360deg);
+}
+
+#btn_hsn{
+	display: block;
+	box-sizing: border-box;
+	margin:auto;
+	padding-top: 20px;
+	-webkit-transition: -webkit-transform .7s ease-in-out;
+	transition: transform .7s ease-in-out;
+}
+
+
+#btn_hsn:hover{
+	padding-top: 20px;
+	transform: scale(1.2, 1.2);
+}
+
+#btn_tesla{
+	display: block;
+	box-sizing: border-box;
+	margin:auto;
+	padding-top: 33px;
+	padding-left: 3px;
+	-webkit-transition: -webkit-transform .1s ease-in-out;
+	transition: transform 0.1s ease-in-out;
+}
+ 
+#btn_tesla:hover{
+	transform: scale(.9, .9);
+}
+
+#btn_dime{
+	display: block;
+	box-sizing: border-box;
+	margin:auto;
+	padding-top: 30px;
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#btn_dime:hover{
+	filter:none;
+}
+
+#btn_stjudes{
+	display:block;
+	margin:auto;
+	padding-top: 20px;
+	-webkit-transition: -webkit-transform .5s ease-in-out;
+	transition: transform 0.5s ease-in-out;
+}
+
+#btn_stjudes:hover{
+    transform: rotateY(30deg)
+}
+
+#btn_lyft{
+	display:block;
+	padding-top: 80px;
+	margin-right: 40px;
+	-webkit-transition: -webkit-transform .3s ease-in-out;
+	transition: transform 0.3s ease-in-out;
+}
+
+#btn_lyft:hover{
+	transform: rotate(45deg)
+}
+
+.lyft{
+	max-width: 500%
+}
+
+#btn_newyorker{
+	display:block;
+	-webkit-transition: -webkit-transform .3s ease-in-out;
+	transition: transform 0.3s ease-in-out;
+}
+
+#btn_newyorker:hover{
+	transform:rotate(-5deg);
+}
+
+#btn_cn{
+	display:inline-block;
+	box-sizing: border-box;
+	padding-top: 80px;
+}
+
+#btn_cn:hover{
+	filter: invert(100%);
+}
+
+#btn_facebook{
+	display:inline-block;
+	margin-top: 60px;
+}
+
+#btn_facebook:hover{
+	filter: drop-shadow(0px 0px 10px black);
+}
+
+#btn_missouri {
+	display:inline-block;
+	padding-top:50px;
+}
+#btn_missouri:hover{
+	  filter: hue-rotate(180deg);
+}
+
+#btn_colorrun{
+	display:inline-block;
+	margin-top: 40px;
+	filter: grayscale(100%);
+ }
+
+ #btn_colorrun:hover{
+    filter:none;
+ }
+
+ #btn_biss{
+	display:inline-block;
+	margin-top: 50px;
+	filter: grayscale(100%);
+ }
+
+ #btn_biss:hover{
+    filter:none;
+ }
+
+ #btn_ideo {
+	display:inline-block;
+	padding-top:50px;
+}
+#btn_ideo:hover{
+	  filter: hue-rotate(190deg);
 }

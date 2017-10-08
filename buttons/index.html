@@ -10,148 +10,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		
 	</head>
-	<body>
-		<style>
-			body {
-				color: #333;
-				font-family: 'Open Sans', sans-serif;
-				margin: 0;
-				padding: 0;
-			}
-
-			#main_content {
-				margin: 40px;
-			}
-
-			h1 {
-			 	font-size: 30px;
-			 	margin-bottom: 40px;
-			}
-
-			.button_container {
-				border: 1px solid #ddd;
-				margin: 0 10px 10px 0;
-				padding: 20px;
-				width: 300px;
-				height: 300px;
-				float: left;
-				overflow: hidden;
-				box-sizing: border-box;
-				text-align: center;
-			}
-
-
-
-			a#btn_spotify {
-				display: inline-block;
-				height: 50px;
-				box-sizing: border-box;
-				border-radius: 25px;
-				margin: auto;
-				margin-top: 100px;
-				padding: 10px 40px 0 40px;
-				background-color: #2ebd59;
-				border: 2px solid #2ebd59;
-				color: #fff;
-				font-size: 20px;
-				font-family: 'Montserrat', sans-serif;
-				font-weight: bold;
-				text-decoration: none;
-			}
-
-			a#btn_spotify:hover {
-				background-color: #fff;
-				border: 2px solid #000;
-				color: #000;
-			}
-
-
-			a#btn_twitter {
-				display: inline-block;
-				height: 40px;
-				box-sizing: border-box;
-				border-radius: 4px;
-				margin: auto;
-				margin-top: 105px;
-				padding: 10px 30px 0 30px;
-				background-color: #56cdf1;
-				color: #fff;
-				font-size: 18px;
-				font-family: 'Arial', sans-serif;
-				font-weight: bold;
-				text-decoration: none;
-			}
-
-			a#btn_twitter:hover {
-				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
-				background: #2ebfec; /* Old browsers */
-				background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
-				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
-				background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
-				background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
-				background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
-				background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
-			}
-
-
-			a#btn_amazon {
-				display: block;
-				width: 100px;
-				height: 100px;
-				box-sizing: border-box;
-				border-radius: 50px;
-				margin: auto;
-				margin-top: 75px;
-				padding-top: 8px;
-				background-color: #232f3e;
-				color: #fff;
-				text-align: center;
-				font-size: 60px;
-			}
-
-			a#btn_amazon:hover {
-				background-color: #fc9a18;
-			}
-
-
-			a#btn_indiegogo {
-				display: inline-block;
-				margin:auto;
-				margin-top: 100px;
-				padding: 8px 16px;
-				background-color: #fff;
-				color: #eb1478;
-				font-family: 'Ubuntu', sans-serif;
-				font-size: 30px;
-				font-weight: bold;
-				text-transform: uppercase;
-				text-decoration: none;
-				letter-spacing: -2px;
-			}
-
-			a#btn_indiegogo:hover {
-				color: #fff;
-				background-color: #eb1478;
-			}
-
-			#btn_coke{
-				display: block;
-				opacity: 0.25;
-			}
-			#btn_coke:hover{
-				opacity: 1;
-			}	
-
-			#btn_nike{
-				display: block;
-				margin:auto;
-				opacity: 0.25;
-			}
-			#btn_nike:hover{
-				opacity: 1;
-			}
-		</style>	
+	<body>	
 		<div id="main_content">
 
 			<h1>Button Styling &mdash; Eddie Livingstone</h1>
@@ -172,124 +31,123 @@
 				<a href="http://www.indiegogo.com" target="_blank" id="btn_indiegogo">indiegogo</a>
 			</div>
 			<div class="button_container">
-				<a href="http://www.coca-cola.com/" target="_blank" id="btn_coke"></a>
-				<img src="images/coca-cola-logo-260x260.png">
+				<a href="http://www.coca-cola.com/" target="_blank" id="btn_coke"><img src="images/coca-cola-logo-260x260.png" class="coke"></a>
 			</div>
 			<div class="button_container">
-				<a href="http://www.apple.com/" target="_blank" id="btn_apple"></a>
-				<img src="images/56-apple-512.png" class= "apple">
+				<a href="http://www.apple.com/" target="_blank" id="btn_apple">
+				<img src="images/56-apple-512.png" class= "apple"></a>
 			</div>
 			<div class="button_container">
-				<a href="http://www.ibm.com/" target="_blank" id="btn_ibm"></a>
-				<img src= "images/ibm-logo-png-transparent-background.png" class= "ibm">
+				<a href="http://www.ibm.com/" target="_blank" id="btn_ibm">
+				<img src= "images/ibm-logo-png-transparent-background.png" class= "ibm"></a>
 			</div>
 			<div class="button_container">
-				<a href="http://nerf.hasbro.com/en-us" target="_blank" id="btn_nerf-hasbro">
-				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Nerf_logo.svg/250px-Nerf_logo.svg.png"/>
+				<a href="http://nerf.hasbro.com/en-us" target="_blank" id="btn_nerf">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Nerf_logo.svg/250px-Nerf_logo.svg.png"/ class="nerf"></a>
 			</div>
 
 			<div class="button_container">
 				<a href="https://www.army.mil/" target="_blank" id="btn_army">
-				<img src="https://s3-media3.fl.yelpcdn.com/bphoto/53QGiii7SPgD5oyoTyqamg/ls.jpg"/>
+				<img src="https://s3-media3.fl.yelpcdn.com/bphoto/53QGiii7SPgD5oyoTyqamg/ls.jpg"/></a>
 			</div>
 
 			<div class="button_container">
-				<a href="http://www.nike.com/us/en_us/" target="_blank" id="btn_nike"></a>
-				<img src="images/1200px-Logo_NIKE.svg.png" class= "nike">
+				<a href="http://www.nike.com/us/en_us/" target="_blank" id="btn_nike">
+				<img src="images/1200px-Logo_NIKE.svg.png" class= "nike"></a>
 			</div>
 
 			<div class="button_container">
 				<a href="https://www.instagram.com/" target="_blank" id="btn_instagram">
-				<img src="https://static1.squarespace.com/static/57968d588419c282935b830b/5796eb37e6f2e187da37a6c4/5796f341414fb50f6b5b34bc/1469510495110/insta.png"/>
+				<i class="fa fa-instagram" aria-hidden="true"></i></a>
 			</div>
 
 			<div class="button_container">
 				<a href="http://www.samsung.com/us/" target="_blank" id="btn_samsung">
-				<img src="http://skyitek.com/media/catalog/category/smasung.png"/>
+				<img src="http://skyitek.com/media/catalog/category/smasung.png"/></a>
 			</div>
 
 			<div class="button_container">
-				<a href="http://www.nbc.com/the-tonight-show" target="_blank" id="btn_tts">
-				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/The_Tonight_Show_Starring_Jimmy_Fallon.svg/200px-The_Tonight_Show_Starring_Jimmy_Fallon.svg.png"/>
+				<a href="http://www.nbc.com/the-tonight-show" target="_blank" id="btn_jimmy">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/The_Tonight_Show_Starring_Jimmy_Fallon.svg/200px-The_Tonight_Show_Starring_Jimmy_Fallon.svg.png"/></a>
 			</div>
 
 			<div class="button_container">
 				<a href="http://www.fitbit.com/home" target="_blank" id="btn_fitbit">
-				<img src="https://pbs.twimg.com/profile_images/684426513773531136/Tk5cdz9f_200x200.png"/>
+				<img src="https://pbs.twimg.com/profile_images/684426513773531136/Tk5cdz9f_200x200.png"/></a>
 			</div>
 
 			<div class="button_container">
-				<a href="http://www.harley-davidson.com/" target="_blank" id="btn_harley-davison"></a>
-				<img src="images/328544961a17ea71b5cec146215895c0.jpg">
+				<a href="http://www.harley-davidson.com/" target="_blank" id="btn_harley">
+				<img src="images/328544961a17ea71b5cec146215895c0.jpg" class = "harley"></a>
 			</div>
 
 			<div class="button_container">
-				<a href="http://www.oldnavy.com/" target="_blank" id="btn_oldnavy"></a>
-				<img src="images/Old_Navy_Logo.svg.png">
+				<a href="http://www.oldnavy.com/" target="_blank" id="btn_oldnavy">
+				<img src="images/Old_Navy_Logo.svg.png" class= "oldnavy"></a>
 			</div>
 
 			<div class="button_container">
 				<a href="http://www.teslamotors.com/" target="_blank" id="btn_tesla">
-				<img src="http://www.simplybuyanycar.com/wp-content/uploads/2016/07/Tesla.jpg"/>
+				<img src="http://www.simplybuyanycar.com/wp-content/uploads/2016/07/Tesla.jpg" class="tesla" /></a>
 			</div>
 
 			<div class="button_container">
 				<a href="http://www.moo.com/us/" target="_blank" id="btn_moo">
-				<img src="https://www.moo.com/.resources/front-end-resources/images/favicons/favicon-196.png"/>
+				<img src="https://www.moo.com/.resources/front-end-resources/images/favicons/favicon-196.png"/></a>
 			</div>
 
 			<div class="button_container">
 				<a href="https://www.hsn.com/" target="_blank" id="btn_hsn">
-				<img src="https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/0020/0169/brand.gif?itok=pAtL33mU"/>
+				<img src="https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/0020/0169/brand.gif?itok=pAtL33mU"/></a>
 			</div>
 			
 			<div class="button_container">
 				<a href="https://www.stjude.org/" target="_blank" id="btn_stjudes">
-				<img src="http://kklr.mrrinteractive.com/wp-content/uploads/2013/04/st-jude-logo-21.png"/>
+				<img src="http://kklr.mrrinteractive.com/wp-content/uploads/2013/04/st-jude-logo-21.png"/></a>
 			</div>
 
 			<div class="button_container">
 				<a href="http://www.dimecitycycles.com/" target="_blank" id="btn_dime">
-				<img src="https://smhttp-ssl-52908.nexcesscdn.net/skin/frontend/rwd/dcc2015//images/logo.png"/>
+				<img src="https://smhttp-ssl-52908.nexcesscdn.net/skin/frontend/rwd/dcc2015//images/logo.png"/></a>
 			</div>
 
 			<div class="button_container">
-				<a href="https://www.facebook.com/" target="_blank" id="btn_facebook"></a>
-				<img src="images/fb-art.png">
+				<a href="https://www.facebook.com/" target="_blank" id="btn_facebook">
+				<img src="https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png" width="120px"></a>
 			</div>
 
 			<div class="button_container">
-				<a href="https://www.lyft.com/" target="_blank" id="btn_lyft"></a>
-				<img src="images/Lyft_logo.svg.png">
+				<a href="https://www.lyft.com/" target="_blank" id="btn_lyft">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Lyft_logo.svg/2000px-Lyft_logo.svg.png" class= "lyft"></a>
 			</div>
 
 			<div class="button_container">
-				<a href="http://www.newyorker.com/" target="_blank" id="btn_thenewyorker">
-				<img src="https://1.bp.blogspot.com/-zPjWXrqzxOQ/V8R2qggKSfI/AAAAAAAAGzg/30Y2StToGw4Ubg1dvArvLo9JEjMD_VzuQCLcB/s1600/The%2BNew%2BYorker.jpg"/>
+				<a href="http://www.newyorker.com/" target="_blank" id="btn_newyorker">
+				<img src="https://1.bp.blogspot.com/-zPjWXrqzxOQ/V8R2qggKSfI/AAAAAAAAGzg/30Y2StToGw4Ubg1dvArvLo9JEjMD_VzuQCLcB/s1600/The%2BNew%2BYorker.jpg"/></a>
 			</div>
 
 			<div class="button_container">
-				<a href="http://www.cartoonnetwork.com/" target="_blank" id="btn_cartoonnetwork">
-				<img src="http://www.akademiamaluchow.pl/site_media/storage/images/2013-04/cartoon_network_2010.jpg"/>
+				<a href="http://www.cartoonnetwork.com/" target="_blank" id="btn_cn">
+				<img src="http://www.akademiamaluchow.pl/site_media/storage/images/2013-04/cartoon_network_2010.jpg" width="150px" /></a>
 			</div>
 
 			<div class="button_container">
 				<a href="http://www.missouribotanicalgarden.org/" target="_blank" id="btn_missouri">
-				<img src="https://pbs.twimg.com/profile_images/540639394357452800/mk7NECtE_200x200.jpeg"/>
+				<img src="https://assets.trabiancdn.com/api/file/eCd94hYESIOpXYy0E6bm+MBG_Logo_600x400.jpg"/ width="225px"></a>
 			</div>
 
 			<div class="button_container">
-				<a href="http://thecolorrun.com/" target="_blank" id="btn_color">
-				<img src="https://mir-s3-cdn-cf.behance.net/projects/202/18532587.548e13422bac9.jpg"/>
+				<a href="http://thecolorrun.com/" target="_blank" id="btn_colorrun">
+				<img src="https://mir-s3-cdn-cf.behance.net/projects/202/18532587.548e13422bac9.jpg"/></a>
 			</div>
 
 			<div class="button_container">
 				<a href="http://www.bissingers.com/" target="_blank" id="btn_biss">
-				<img src="http://cdn.bissingers.com/images/NewLogo.png"/>
+				<img src="http://cdn.bissingers.com/images/NewLogo.png"/></a>
 			</div>
 			<div class="button_container">
 				<a href="http://ideo.org" target="_blank" id="btn_ideo">
-				<img src="images/ideo.jpg">
+				<img src="images/ideo.jpg" width="250px"></a>
 			</div>
 		</div>	
 
