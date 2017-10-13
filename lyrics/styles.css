@@ -1,0 +1,64 @@
+html{
+	font-family: 'Anton', sans-serif;
+	background-color:#0001ff;
+}
+body {
+   
+}
+em{
+	color: #808080;
+}
+#song-title{
+	font-size: 36px;
+	font-weight: bold;
+}
+#artist-name {
+	font-size: 40px;
+	color: white;
+}
+.script{
+	color: white;
+	font-size: 12px;
+	font-family: 'Anton', sans-serif;
+}
+.italic{
+	color: white;
+	font-size: 12px;
+}
+.source {
+	font-size: 12px;
+}
+
+.section1{
+	height: 300px;
+	color: white;
+    display: block;
+    background-image: url(https://va.sndcdn.com/bg/soundcloud:sounds:150288470/Visual_Player_SC_5.jpg);*/
+    float: left;
+}
+#leftCol {
+	width: 33%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+}
+
+#middleCol{
+	padding-left: 7px;
+	width: 33%;
+	height: 100%;
+	float: middle;
+	display: inline-block;
+}
+#rightCol {
+	width: 33%;
+	height: 100%;
+	float: right;
+	display: inline-block;
+}
+
+.section3 {
+	background-color: lightblue;
+    height: 679px;
+    float: left;
+}
