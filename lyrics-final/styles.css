@@ -1,0 +1,161 @@
+em{
+	color: #808080;
+}
+
+body{
+	width: 100%;
+    /*background-image: url(bass2.png);*/
+ 	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+@font-face {
+    	font-family: "Helvetica";
+    	src: url(HelveticaNeueLTStd XBlkCn.otf);
+   }
+
+#song-title{
+	margin-bottom: 0; padding-bottom: 0;
+	font-size: 120px;
+	font-weight: bold;
+	color: black;
+	font-family: "Helvetica";
+}
+#song-title:hover{
+	color:#DCDCDC;
+	transition: 2s;
+}
+
+#artist-name {
+	font-size: 40px;
+	color: black;
+	font-weight: bold;
+	margin-bottom: 0; padding-bottom: 0;
+	font-family: "Helvetica";
+}
+#artist-name:hover{
+	color:#E35151;
+	transition: 1s;
+}
+
+#sub-artist{
+	font-size: 25px;
+	color: black;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0; padding-bottom: 0;
+	font-family: "Helvetica";
+}
+
+#sub-artist:hover{
+	color:#E35151;
+	transition: 1s;
+}
+#bassdrop{
+	max-width:100%;
+	height:auto;
+}
+
+.script{
+	padding-top: 0; margin-top: 0;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Helvetica";
+}
+.italic{
+	padding-top: 0; margin-top: 0;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: "Helvetica";
+}
+.source {
+	padding-top: 0; margin-top: 0;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.section1{
+	height: 800px;
+	color: white;
+    display: block;
+    float: center;
+}
+
+.sec1-5{
+	padding-top: 300px;
+	height: 800px;
+	float:center;
+	background-image: url("you and me.png");
+    background-size: contain;
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+.section2 {
+	padding-top: 0; margin-top: 0;
+    height: 800px;
+}
+
+.sec2-5{
+	 height: 800px;
+}
+
+.verse2{
+	height: 800px;
+}
+
+.chorus2{
+	height: 600px;
+}
+
+#hands{
+	max-width:100%;
+	height:auto;
+}
+
+#up {
+	display: block;
+	width: 120px;
+	position: fixed;
+	z-index: 99;
+	bottom: 60px;
+	right:60px ;
+	opacity: 1;
+}
+
+#up:hover {
+	opacity: 0.5;   
+}
+
+#bottom_left{
+	width: 200px;
+	display: block;
+}
+
+.iconset {
+	line-height: 0px;
+	text-align: center; 
+}
+
+.iconset .fa{
+	color: gray;
+	font-size: 18px;
+	letter-spacing: 3px;
+}
+
+.iconset *:hover {
+	color: white;
+}
+/*
+#nectar{
+	height: 1400px;
+	background-image: url("nectar.jpg");
+    background-size: contain;
+    background-position: fixed;
+    background-position: center;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
