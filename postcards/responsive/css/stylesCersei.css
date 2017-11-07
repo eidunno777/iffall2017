@@ -1,0 +1,51 @@
+#quoteCersei {
+	width: 100%;
+	height: 100vh;
+	background-image: url("../images/cerseiLong.jpg");
+	background-position: left;
+	background-size: center;
+ 	background-repeat: no-repeat; 
+	padding-left: 100px;
+	padding-top: 300px;
+	padding-right: 800px;
+	box-sizing: border-box;
+	font-family: Game of Thrones;
+	color: #c09a60;
+	letter-spacing: 2px;
+	line-height: 140%;
+	font-size: 40px;
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1800px){
+	#quoteCersei {
+		background-size: right;
+		padding-top: 300px;
+		padding-right: 800px;
+		background-image: url("../images/cerseiLong.jpg");
+		background-position: left;
+		font-size: 36px; 
+	}
+}
+@media screen and (min-width: 1000px) and (max-width: 1300px){
+	#quoteCersei {
+		background-size: right;
+		padding-top: 300px;
+		padding-right: 300px;
+		background-image: url("../images/cerseiLong.jpg");
+		background-position: left;
+		font-size: 30px; 
+	}
+}
+
+@media screen and (max-width: 1000px){
+	#quoteCersei {
+		padding-left: 50px;
+		padding-top: 100px;
+		padding-right: 80px;
+		background-image: url("../images/cerseiMob.jpg");
+		background-size: cover;
+		background-position: right;
+		font-size: 20px; 
+	}
+}
+
