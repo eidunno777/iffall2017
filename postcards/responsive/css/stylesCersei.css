@@ -1,15 +1,26 @@
+@font-face {
+    font-family: 'game_of_thronesregular';
+    src: url('game_of_thrones-webfont.woff2') format('woff2'),
+         url('game_of_thrones-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+a{
+	text-decoration: none;
+}
 #quoteCersei {
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 	background-image: url("../images/cerseiLong.jpg");
 	background-position: left;
-	background-size: center;
+	background-size: cover;
  	background-repeat: no-repeat; 
 	padding-left: 100px;
 	padding-top: 300px;
 	padding-right: 800px;
 	box-sizing: border-box;
-	font-family: Game of Thrones;
+	font-family: 'game_of_thronesregular';
 	color: #c09a60;
 	letter-spacing: 2px;
 	line-height: 140%;
@@ -30,7 +41,7 @@
 	#quoteCersei {
 		background-size: right;
 		padding-top: 300px;
-		padding-right: 300px;
+		padding-right: 450px;
 		background-image: url("../images/cerseiLong.jpg");
 		background-position: left;
 		font-size: 30px; 
@@ -44,7 +55,7 @@
 		padding-right: 80px;
 		background-image: url("../images/cerseiMob.jpg");
 		background-size: cover;
-		background-position: right;
+		background-position: center;
 		font-size: 20px; 
 	}
 }
