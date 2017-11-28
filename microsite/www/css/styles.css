@@ -332,7 +332,6 @@ h4{
 	opacity: 1 !important;
 }
 
-
 #bioOther{
 	overflow: hidden;
 	position:absolute;
@@ -349,6 +348,21 @@ h4{
 	opacity: 1 !important;
 	width: 400px !important;
     height: 800px !important;
+}
+
+#bioToHome{
+	position: absolute;
+	top:-40px;
+	left:-130px;
+	 -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+
+#bioToHome:hover {
+	  -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
 }
 
 /*musicPage*/
@@ -397,6 +411,15 @@ h4{
 	position:absolute;
 	top: -20px;
 	left: 400px;
+ -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+
+#musicToHome:hover {
+	  -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
 }
 
 /*TheaterPage*/
@@ -411,17 +434,19 @@ h4{
  	background-position: left;
  	border-radius: 50%;
  	background-image:url("../images/playPic1.png");
-    top: 50px;
+    top: 70px;
    	right: 200px;
    	opacity: 0;
-    width: 600px;
-    height: 600px;
+    width: 200px;
+    height: 200px;
 }
 
 .theaterPicTrans {
 	transition:opacity 2.3s ease-out;
 	top: 40px !important;
 	opacity: 1 !important;
+	width: 600px !important;
+    height: 600px !important;
 }
 
 #theaterOther{
@@ -444,20 +469,44 @@ h4{
 
 #theaterToHome{
 	position:absolute;
-	top: -20px;
+	top: -5px;
 	left: 1100px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
 }
+
+#theaterToHome:hover {
+	  -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
+}
+
 #buttonCol{
 	position:absolute;
-	top: 0px;
-	left: 800px;
+	top: 200px;
+	left: 1100px;
 	opacity: 0;
 }
 
 .colButton{
-	border-radius: 50%
+	border-radius: 50% !important;
 	background-color: #c4b1a0 !important;
 	color: #c4b1a0 !important;
-	width: 30px;
-	height: 30px;
+	width: 22px;
+	height: 22px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+
+.colButton:hover {
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
+}
+
+.active{
+	background-color: #c4b1a0 !important;
+	color: #c4b1a0 !important;
 }

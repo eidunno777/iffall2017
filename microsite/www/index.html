@@ -63,8 +63,8 @@
 			</div>
 			<div id="bioPic"></div>
 			<div id="bioOther">
+				<button id=bioToHome><img src="images/home.png" width="45"></button>
 				<center>
-					<button id=bioToHome><img src="images/home.png" width="45"></button>
 					<h1 id="Biography"> Biography</h1>
 					<p>
 					Woody Allen’s prolific career as a comedian, writer, and filmmaker has now spanned more than six decades.  Mr. Allen’s first screenplay was for What’s New Pussycat?, which was released in 1965.  He has written and directed more than 45 feature films, including Annie Hall, Manhattan and more recently, Midnight in Paris and Blue Jasmine. Woody Allen is the author of Without Feathers and Side Effects, among other books.
@@ -89,14 +89,14 @@
 			</div>
 			<div id="theaterPic"></div>
 			<div id="buttonCol">
-				<button class="colButton" id="but1"></button><br>
-				<button class="colButton" id="but2"></button><br>
-				<button class="colButton" id="but3"></button><br>
-				<button class="colButton" id="but4"></button><br>
-				<button class="colButton" id="but5"></button><br>
-				<button class="colButton" id="but6"></button><br>
-				<button class="colButton" id="but7"></button><br>
-				<button class="colButton" id="but8"></button><br>
+				<button class="colButton" id="but1"></button><br><br>
+				<button class="colButton" id="but2"></button><br><br>
+				<button class="colButton" id="but3"></button><br><br>
+				<button class="colButton" id="but4"></button><br><br>
+				<button class="colButton" id="but5"></button><br><br>
+				<button class="colButton" id="but6"></button><br><br>
+				<button class="colButton" id="but7"></button><br><br>
+				<button class="colButton" id="but8"></button><br><br>
 			</div>
 			<div id="theaterOther">
 				<button id=theaterToHome><img src="images/home.png" width="45"></button>
@@ -176,36 +176,43 @@
 			$("#buttonCol").toggleClass("theaterOtherTrans");
 			$("#homePage").toggleClass("theaterHPTrans");
 		}
+		var activeButton = document.getElementById(but1);
 		$('#but1').click(function(){
-	    	$('#theaterPic').css('background-image', 'url(../images/playPic1.png)');
-	    	$('#curPlay').html('<strong>Bullets Over Broadway The Musical</strong><br>Writer of Book<br>2014');
+			$("activeButton").toggleClass("active");
+			var activeButton = document.getElementById(but1);
+			$("activeButton").toggleClass("active");
+	    	$('#theaterPic').css("background-image", "url(images/playPic1.png)");
+	    	$('#curPlay').html('<strong>Bullets Over Boadway The Musical</strong><br>Writer of Book<br>2014');
 	    });
 	    $('#but2').click(function(){
-	    	$('#theaterPic').css('background-image', 'url(../images/playPic2.png)');
+	    	$("activeButton").toggleClass("active");
+			var activeButton = document.getElementById(but2);
+			$("activeButton").toggleClass("active");
+	    	$('#theaterPic').css('background-image', 'url(images/playPic2.png)');
 	    	$('#curPlay').html('<strong>Relatively Speaking</strong><br>Writer of &lsquo;Honeymoon Motel&rsquo; Segment<br>2011');
 	    });
 	    $('#but3').click(function(){
-	    	$('#theaterPic').css('background-image', 'url(../images/playPic3.png)');
+	    	$('#theaterPic').css('background-image', 'url(images/playPic3.png)');
 	    	$('#curPlay').html('<strong>A Second Hand Memory</strong><br>Writer, Director<br>2004');
 	    });
 	    $('#but4').click(function(){
-	    	$('#theaterPic').css('background-image', 'url(../images/playPic4.png)');
+	    	$('#theaterPic').css('background-image', 'url(images/playPic4.jpg)');
 	    	$('#curPlay').html('<strong>Writer&rsquo;s Block</strong><br>Writer, Director<br>2003');
 	    });
 	    $('#but5').click(function(){
-	    	$('#theaterPic').css('background-image', 'url(../images/playPic5.png)');
+	    	$('#theaterPic').css('background-image', 'url(images/playPic5.png)');
 	    	$('#curPlay').html('<strong>The Floating Light Bulb</strong><br>Writer<br>1981');
 	    });
 	    $('#but6').click(function(){
-	    	$('#theaterPic').acss('background-image', 'url(../images/playPic6.png)');
+	    	$('#theaterPic').css('background-image', 'url(images/playPic6.png)');
 	    	$('#curPlay').html('<strong>Play It Again, Sam</strong><br>Writer, Actor<br>1969');
 	    });
 	    $('#but7').click(function(){
-	    	$('#theaterPic').css('background-image', 'url(../images/playPic7.png)');
+	    	$('#theaterPic').css('background-image', 'url(images/playPic7.png)');
 	    	$('#curPlay').html('<strong>Don&rsquo;t Drink the Water</strong><br>Writer<br>1966');
 	    });
 	     $('#but8').click(function(){
-	    	$('#theaterPic').css('background-image', 'url(../images/playPic8.png)');
+	    	$('#theaterPic').css('background-image', 'url(images/playPic8.png)');
 	    	$('#curPlay').html('<strong>From A to Z</strong><br>Writer of Book<br>1960');
 	    });
 		
