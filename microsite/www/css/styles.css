@@ -1,0 +1,463 @@
+button:active {
+	outline: none;
+	border: none;
+}
+button{
+	outline: none;
+	border: none;
+	cursor:pointer;
+}
+h1{
+	font-size: 70px;
+}
+h4{
+	margin-top: 18px;
+	margin-bottom: 15px;
+	font-size: 33px;
+	font-weight: lighter;
+}
+#viewPort{
+	width: 1200px;
+	height: 750px;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+#homePage{
+	width: 1200px;
+	height: 750px;
+	margin: auto;
+	position: relative;
+}
+.transition{
+	transition:all 2s ease-out;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+}
+
+#woodyAllen{
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    width: 375px;
+	height: 135px;
+	background-position: center;
+	background-size: cover;
+ 	background-repeat: no-repeat; 
+    background-image: url("../images/woody.png");
+    z-index: 1;
+}
+
+.circleContainer{
+	position: absolute;
+	cursor:pointer;
+	width: 150px;
+	height: 200px;
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+.circleText{
+	position: absolute;
+	font-size: 17px;
+	top: 150px;
+}
+
+.circleText#filmText{
+	right: 33px;
+}
+.circleContainer#filmography{
+	position: absolute;
+	cursor:pointer;
+    left: 275px;
+    top: 270px;
+    width: 150px;
+	height: 150px;
+}
+#filmCircle{
+	position: absolute;
+ 	width: 140px;
+	height: 140px;
+	background-position: left;
+	background-size: cover;
+ 	border-radius: 50%;
+    background-image: url("../images/filmCircle.jpg");
+     -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+ 
+}
+#filmCircle:hover {
+	  -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
+}
+
+.circleText#theaterText{
+	right: 55px;
+}
+.circleContainer#theater{
+	position: absolute;
+    left: 369px;
+    top: 465px;
+    width: 150px;
+	height: 150px;
+}
+#theaterCircle{
+	position: absolute;
+ 	width: 140px;
+	height: 140px;
+	background-position: left;
+	background-size: cover;
+ 	border-radius: 50%;
+    background-image: url("../images/theaterCircle.jpg");
+   -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+#theaterCircle:hover {
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
+}
+
+.circleText#musicText{
+	right: 55px;
+}
+.circleContainer#music{
+	position: absolute;
+    left: 539px;
+    top: 559px;
+    width: 150px;
+	height: 150px;
+}
+#musicCircle{
+	position: absolute;
+ 	width: 140px;
+	height: 140px;
+	background-position: left;
+	background-size: cover;
+ 	border-radius: 50%;
+    background-image: url("../images/musicCircle.png");
+     -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+#musicCircle:hover {
+	  -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
+}
+.circleText#newsText{
+	right: 55px;
+}
+.circleContainer#news{
+	position: absolute;
+    left: 750px;
+    top: 560px;
+    width: 150px;
+	height: 150px;
+}
+#newsCircle{
+	position: absolute;
+ 	width: 140px;
+	height: 140px;
+	background-position: left;
+	background-size: cover;
+ 	border-radius: 50%;
+    background-image: url("../images/newsCircle.png");
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+#newsCircle:hover {
+	  -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
+}
+.circleText#bioText{
+	right: 55px;
+}
+.circleContainer#bio{
+	position: absolute;
+    left: 930px;
+    top: 450px;
+    width: 150px;
+	height: 150px;
+}
+#bioCircle{
+	position: absolute;
+ 	width: 140px;
+	height: 140px;
+	background-position: left;
+	background-size: cover;
+ 	border-radius: 50%;
+    background-image: url("../images/bioCircle.png");
+     -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+#bioCircle:hover {
+	  -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
+}
+#slideShow{
+	position: absolute;
+    left: 450px;
+    top: 20px;
+    width: 520px;
+	height: 520px;
+	border-radius: 50%;
+}
+
+.mySlides{
+	position: absolute;
+	width:100%;
+	border-radius: 50%;
+	background-size: cover;
+ 	background-repeat: no-repeat; 
+}
+
+#slideRight{
+	border:none;
+	background-color: white;
+	position: absolute;
+    left: 1015px;
+    top: 275px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+#slideRight:hover{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
+}
+
+.filmHPTrans {
+	transition:all 2s ease-out;
+	left: 1300px;
+	opacity: 0;
+}
+
+
+#filmPagePic {
+	position:absolute;
+	background-size: cover;
+ 	border-radius: 50%;
+ 	background-position: left;
+    background-image: url("../images/filmPagePic.png");
+    top: -20px;
+   	left: -1200px;
+   	opacity: 0;
+    width: 800px;
+    height: 800px;
+}
+.filmPagePicTrans {
+	transition:all 2.3s ease-out;
+	left: -200px !important;
+	opacity: 1 !important;
+}
+
+
+#filmPageOther{
+	overflow: hidden;
+	position:absolute;
+	background-size: cover;
+	top: 60px;
+   	left: 650px;
+   	opacity: 0;
+    width: 200px;
+    height: 200px;
+}
+.filmPageOtherTrans {
+	overflow: visible !important;
+	transition:opacity 3s ease-in;
+	opacity: 1 !important;
+	width: 400px !important;
+    height: 800px !important;
+}
+
+/*//Film page*/
+#moviePic{
+	background-image: url("../images/film1.png");
+	background-size: cover;
+ 	border-radius: 50%;
+ 	width: 300px;
+    height: 300px;
+}
+#filmsRigth{
+	position:absolute;
+	top: 50px;
+	left: 100px;
+}
+#filmToHome{
+	position: absolute;
+	top:-20px;
+	left:450px;
+	 -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+
+#filmToHome:hover {
+	  -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
+}
+
+/*bioPage*/
+.bioHPTrans {
+	transition:all 2s ease-out;
+	left: -1300px !important;
+	opacity: 0;
+}
+
+#bioPic {
+	position:absolute;
+	background-size: cover;
+ 	border-radius: 50%;
+ 	background-position: left;
+    background-image: url("../images/bioPic.png");
+    top: -20px;
+   	right: -1200px;
+   	opacity: 0;
+    width: 800px;
+    height: 800px;
+}
+.bioPicTrans {
+	transition:all 2.3s ease-out;
+	right: -200px !important;
+	opacity: 1 !important;
+}
+
+
+#bioOther{
+	overflow: hidden;
+	position:absolute;
+	background-size: cover;
+	top: 60px;
+   	right: 650px;
+   	opacity: 0;
+    width: 200px;
+    height: 200px;
+}
+.bioOtherTrans {
+	overflow: visible !important;
+	transition:opacity 3s ease-in;
+	opacity: 1 !important;
+	width: 400px !important;
+    height: 800px !important;
+}
+
+/*musicPage*/
+.musicHPTrans {
+	transition:all 2s ease-out;
+	top: -800px !important;
+	opacity: 0;
+}
+#musicPic {
+	position:absolute;
+	background-size: cover;
+ 	background-position: left;
+    background-image: url("../images/musicPic.png");
+    top: 1000px;
+   	left: -70px;
+   	opacity: 0;
+    width: 1050px;
+    height: 950px;
+    z-index: 0;
+}
+.musicPicTrans {
+	transition:all 2.3s ease-out;
+	top: 40px !important;
+	opacity: 1 !important;
+}
+
+#musicOther{
+	overflow: hidden;
+	position:absolute;
+	background-size: cover;
+	opacity: 0;
+	top: 40px;
+   	left: 650px;
+    width: 200px;
+    height: 200px;
+}
+.musicOtherTrans {
+	overflow: visible !important;
+	transition: opacity 3s ease-in;
+	opacity: 1 !important;
+	width: 500px !important;
+    height: 800px !important;
+}
+
+#musicToHome{
+	position:absolute;
+	top: -20px;
+	left: 400px;
+}
+
+/*TheaterPage*/
+.theaterHPTrans {
+	transition:all 2s ease-out;
+	opacity: 0;
+}
+
+#theaterPic {
+	position:absolute;
+	background-size: cover;
+ 	background-position: left;
+ 	border-radius: 50%;
+ 	background-image:url("../images/playPic1.png");
+    top: 50px;
+   	right: 200px;
+   	opacity: 0;
+    width: 600px;
+    height: 600px;
+}
+
+.theaterPicTrans {
+	transition:opacity 2.3s ease-out;
+	top: 40px !important;
+	opacity: 1 !important;
+}
+
+#theaterOther{
+	overflow: hidden;
+	position:absolute;
+	background-size: cover;
+	opacity: 0;
+	top: 40px;
+   	right: 720px;
+    width: 200px;
+    height: 200px;
+}
+.theaterOtherTrans {
+	overflow: visible !important;
+	transition: opacity 3s ease-in;
+	opacity: 1 !important;
+	width: 500px !important;
+    height: 800px !important;
+}
+
+#theaterToHome{
+	position:absolute;
+	top: -20px;
+	left: 1100px;
+}
+#buttonCol{
+	position:absolute;
+	top: 0px;
+	left: 800px;
+	opacity: 0;
+}
+
+.colButton{
+	border-radius: 50%
+	background-color: #c4b1a0 !important;
+	color: #c4b1a0 !important;
+	width: 30px;
+	height: 30px;
+}
