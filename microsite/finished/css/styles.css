@@ -1,0 +1,752 @@
+button:active {
+	outline: none;
+	border: none;
+}
+button{
+	outline: none;
+	border: none;
+	cursor:pointer;
+}
+h1{
+	font-size: 70px;
+}
+h4{
+	margin-top: 18px;
+	margin-bottom: 15px;
+	font-size: 33px;
+	font-weight: lighter;
+}
+#viewPort{
+	width: 1200px;
+	height: 750px;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+#homePage{
+	width: 1200px;
+	height: 750px;
+	margin: auto;
+	position: relative;
+}
+#whiteBox{
+	margin: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+	z-index: 1000;
+}
+
+.transition{
+	transition:all 2s ease-out;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+}
+
+#woodyAllen{
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    width: 375px;
+	height: 135px;
+	background-position: center;
+	background-size: cover;
+ 	background-repeat: no-repeat; 
+    background-image: url("../images/woody.png");
+    z-index: 1;
+}
+
+.circleContainer{
+	position: absolute;
+	cursor:pointer;
+	width: 150px;
+	height: 200px;
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.circleText{
+	position: absolute;
+	font-size: 17px;
+	top: 150px;
+}
+
+.circleText#filmText{
+	right: 36px;
+}
+.circleContainer#filmography{
+	position: absolute;
+	cursor:pointer;
+    left: 275px;
+    top: 270px;
+    width: 150px;
+	height: 150px;
+}
+#filmCircle{
+	position: absolute;
+ 	width: 140px;
+	height: 140px;
+	background-position: left;
+	background-size: cover;
+ 	border-radius: 50%;
+    background-image: url("../images/filmCircle.jpg");
+     -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+ 
+}
+#filmCircle:hover {
+	  -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
+	transform: scale(1.12, 1.12);
+}
+
+.circleText#theaterText{
+	right: 55px;
+}
+.circleContainer#theater{
+	position: absolute;
+    left: 369px;
+    top: 465px;
+    width: 150px;
+	height: 150px;
+}
+#theaterCircle{
+	position: absolute;
+ 	width: 140px;
+	height: 140px;
+	background-position: left;
+	background-size: cover;
+ 	border-radius: 50%;
+    background-image: url("../images/theaterCircle.jpg");
+   -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+#theaterCircle:hover {
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
+	transform: scale(1.12, 1.12);
+}
+
+.circleText#musicText{
+	right: 60px;
+}
+.circleContainer#music{
+	position: absolute;
+    left: 539px;
+    top: 559px;
+    width: 150px;
+	height: 150px;
+}
+#musicCircle{
+	position: absolute;
+ 	width: 140px;
+	height: 140px;
+	background-position: left;
+	background-size: cover;
+ 	border-radius: 50%;
+    background-image: url("../images/musicCircle.png");
+     -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+#musicCircle:hover {
+	  -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
+	transform: scale(1.12, 1.12);
+}
+.circleText#newsText{
+	right: 60px;
+}
+.circleContainer#news{
+	position: absolute;
+    left: 750px;
+    top: 560px;
+    width: 150px;
+	height: 150px;
+}
+#newsCircle{
+	position: absolute;
+ 	width: 140px;
+	height: 140px;
+	background-position: left;
+	background-size: cover;
+ 	border-radius: 50%;
+    background-image: url("../images/newsCircle.png");
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+#newsCircle:hover {
+	  -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
+	transform: scale(1.12, 1.12);
+}
+.circleText#bioText{
+	right: 43px;
+}
+.circleContainer#bio{
+	position: absolute;
+    left: 930px;
+    top: 450px;
+    width: 150px;
+	height: 150px;
+}
+#bioCircle{
+	position: absolute;
+ 	width: 140px;
+	height: 140px;
+	background-position: left;
+	background-size: cover;
+ 	border-radius: 50%;
+    background-image: url("../images/bioCircle.png");
+     -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+#bioCircle:hover {
+	  -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
+	transform: scale(1.12, 1.12);
+}
+#slideShow{
+	position: absolute;
+    left: 450px;
+    top: 20px;
+    width: 520px;
+	height: 520px;
+	border-radius: 50%;
+	transition: all 2s linear;
+}
+
+.mySlides{
+	position: absolute;
+	width:100%;
+	border-radius: 50%;
+	background-size: cover;
+ 	background-repeat: no-repeat; 
+ 	transition: all 2s ease;
+}
+
+#slideRight{
+	border:none;
+	background-color: white;
+	position: absolute;
+    left: 1015px;
+    top: 275px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+#slideRight:hover{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
+}
+
+/*//Film page*/
+.filmHPTrans {
+	transition:all 2s ease-out;
+	left: 1300px;
+	opacity: 0;
+}
+
+#filmPagePic {
+	position:absolute;
+	background-size: cover;
+ 	border-radius: 50%;
+ 	background-position: left;
+    background-image: url("../images/filmPagePic.png");
+    transition:all 2.3s ease-out;
+    top: -20px;
+   	left: -1200px;
+   	opacity: 0;
+    width: 800px;
+    height: 800px;
+}
+.filmPagePicTrans {
+	left: -200px !important;
+	opacity: 1 !important;
+}
+#filmPageOther{
+	overflow: hidden;
+	position:absolute;
+	background-size: cover;
+	top: 60px;
+   	left: 650px;
+   	opacity: 0;
+    width: 200px;
+    height: 200px;
+}
+.filmPageOtherTrans {
+	overflow: visible !important;
+	transition:opacity 3s ease-in;
+	opacity: 1 !important;
+	width: 400px !important;
+    height: 800px !important;
+}
+
+
+#moviePic{
+	background-size: cover;
+	background-position: center;
+}
+.filmSlides{
+	position: absolute;
+	background-size: cover;
+	border: none;
+	/*overflow: hidden;*/
+	width:100%;
+	left: 55px;
+	top: 145px;
+ 	width: 300px;
+    height: 300px;
+	border-radius: 50% !important;
+	transition: all ease 2s;
+}
+
+.filmSlides img{
+	border-radius: 50% !important;
+	overflow: hidden;
+	max-width:100%;
+	max-height:100%;
+}
+.movieText{
+	padding-top: 17px;
+	font-size: 30px;
+}
+
+#filmButtons{
+	position:absolute;
+	top: 555px;
+	left: 140px;
+}
+
+#filmsRight{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+#filmsRight:hover{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
+}
+#filmsLeft{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+#filmsLeft:hover{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
+}
+
+#filmToHome{
+	position: absolute;
+	top:-20px;
+	left:450px;
+	 -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+
+#filmToHome:hover {
+	  -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
+	transform: scale(1.2, 1.2);
+}
+
+
+/*bioPage*/
+
+.bioHPTrans {
+	transition:all 2s ease-out;
+	left: -1300px !important;
+	opacity: 0;
+}
+#bioPic {
+	position:absolute;
+	transition:all 2.3s ease-out;
+	background-size: cover;
+ 	border-radius: 50%;
+ 	background-position: left;
+    background-image: url("../images/bioPic.png");
+    top: -20px;
+   	right: -1200px;
+   	opacity: 0;
+    width: 800px;
+    height: 800px;
+}
+.bioPicTrans {
+	right: -200px !important;
+	opacity: 1 !important;
+}
+#bioOther{
+	overflow: hidden;
+	position:absolute;
+	background-size: cover;
+	top: 60px;
+   	right: 700px;
+   	opacity: 0;
+    width: 200px;
+    height: 200px;
+}
+#bioOther p{
+	position: absolute;
+	font-size: 20px;
+	text-align: left;
+	opacity: 1 !important;
+	top: 125px;
+	left: 88px;
+	width: 280px;
+    height: 280px;
+}
+.bioOtherTrans {
+	overflow: visible !important;
+	transition:opacity 3s ease-out;
+	opacity: 1 !important;
+	width: 400px !important;
+    height: 800px !important;
+}
+#bioToHome{
+	position: absolute;
+	top:-40px;
+	left:-80px;
+	 -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+
+#bioToHome:hover {
+	  -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
+	transform: scale(1.2, 1.2);
+}
+
+/*musicPage*/
+#musicT p{ 
+	font-size: 18px;
+	margin-bottom: none;
+	padding-bottom: none;
+}
+#musicT2 p{ 
+	-webkit-margin-before: 0em;
+	font-size: 18px;
+	margin-bottom: none !important;
+	padding-bottom: none !important
+	-webkit-margin-before: none;
+	-webkit-margin-after: none;
+}
+#musicT{
+	margin-top: none;
+	text-align: left;
+	margin-left: 225px;
+	padding-top: none;
+}
+#musicOther a{
+	margin-top: none;
+	padding-top: none;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+#musicT span{
+	margin-top: none;
+	padding-top: none;
+}
+#musicT2{
+	margin-top: 30px;
+	text-align: left;
+	margin-left: 228px;
+	padding-top: none;
+}
+.musicHPTrans {
+	transition:all 2s ease-out;
+	top: -800px !important;
+	opacity: 0;
+}
+#musicPic {
+	position:absolute;
+	background-size: cover;
+ 	background-position: left;
+    background-image: url("../images/musicPic.png");
+    transition:all 2.3s ease-out;
+    top: 1000px;
+   	left: -90px;
+   	opacity: 0;
+    width: 1050px;
+    height: 950px;
+    z-index: 0;
+}
+.musicPicTrans {
+	top: 80px !important;
+	opacity: 1 !important;
+}
+
+#musicOther{
+	overflow: hidden;
+	position:absolute;
+	background-size: cover;
+	opacity: 0;
+	top: 40px;
+   	left: 650px;
+    width: 200px;
+    height: 200px;
+}
+.musicOtherTrans {
+	overflow: visible !important;
+	transition: opacity 3s ease-in;
+	opacity: 1 !important;
+	width: 500px !important;
+    height: 800px !important;
+}
+
+#musicToHome{
+	position:absolute;
+	top: -20px;
+	left: 400px;
+ -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+
+#musicToHome:hover {
+	  -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
+	transform: scale(1.2, 1.2);
+}
+
+/*/*TheaterPage*/
+
+.theaterHPTrans {
+	transition:all 2s ease-out;
+	opacity: 0;
+}
+
+#theaterPic {
+	position:absolute;
+	background-size: cover;
+ 	background-position: left;
+ 	border-radius: 50%;
+ 	background-image:url("../images/playPic1.png");
+ 	transition:all 2s ease-out !important;
+    top: 70px;
+   	right: 200px;
+   	opacity: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.theaterPicTrans {
+	top: 40px !important;
+	opacity: 1 !important;
+	width: 600px !important;
+    height: 600px !important;
+}
+
+#theaterOther{
+	overflow: hidden;
+	position:absolute;
+	background-size: cover;
+	opacity: 0;
+	top: 40px;
+   	right: 720px;
+    width: 200px;
+    height: 200px;
+}
+.theaterOtherTrans {
+	overflow: visible !important;
+	transition: opacity 3s ease-in;
+	opacity: 1 !important;
+	right: 800px !important;
+	width: 320px !important;
+    height: 800px !important;
+}
+
+#theaterToHome{
+	position:absolute;
+	top: -5px;
+	left: 1000px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+
+#theaterToHome:hover {
+	 -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
+	transform: scale(1.2, 1.2);
+}
+strong{
+	font-size: 30px;
+}
+#curPlay{
+	position: absolute;
+	top: 250px;
+	right: 60px;
+	width: 200px !important;
+	transition: all ease 1s !important;
+	font-size: 15px !important;
+}
+
+#buttonCol{
+	position:absolute;
+	top: 200px;
+	left: 1097px;
+	opacity: 0;
+}
+
+.colButton{
+	border-radius: 50% !important;
+	background-color: #c4b1a0 !important;
+	color: #c4b1a0 !important;
+	width: 22px;
+	height: 22px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+    transition: background-color 0.6s ease;
+}
+
+.colButton:hover {
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
+}
+
+.active{
+	background-color: black !important;
+	color: black !important;
+	transition: all ease 1s;
+}
+
+/*newsPage*/
+.circleBut{
+	border-radius: 50% !important;
+	opacity: 1;
+    transition: all 2s ease-in-out;
+    position:absolute;
+	background-size: cover;
+}
+.circleBut:hover{
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5 !important;
+	transform: scale(1.1, 1.1);
+}
+
+#newsWonderBut{
+ 	background-position: left;
+    background-image: url("../images/newsCircle.png");
+    top: -80px;
+   	left: -1200px;
+   	opacity: 0;
+    width: 500px;
+    height: 500px;
+}
+#newsWonderBut: hover{
+	
+}
+#newsInterviewBut{
+	background-position: left;
+    background-image: url("../images/interview.png");
+    top: -50px;
+   	right: -900px;
+   	opacity: 0;
+    width: 680px;
+    height: 680px;
+}
+
+#pressText{
+	position: absolute;
+	font-size: 30px;
+	font-weight: normal;
+	opacity: 0;
+	top: 565px;
+	left: 370px;
+}
+.pressTextTrans{
+	transition:opacity 5.9s ease-in !important;
+	opacity: 1 !important;
+}
+
+#newsPressBut{
+	background-position: left;
+    background-image: url("../images/press.png");
+    top: 1200px;
+    left: 200px;
+   	opacity: 0;
+    width: 450px;
+    height: 450px;
+}
+
+#newsOther{
+	overflow: hidden;
+	display: block;
+	position:absolute;
+	background-size: cover;
+	opacity: 0;
+	top: 260px;
+	left:430px;
+}
+#newsOtherText{
+	font-size: 90px;
+}
+.newsHPTrans {
+	transition:all 2s ease-out;
+	top: 1000px;
+	opacity: 0;
+}
+.newsWonderButTrans {
+	transition:all 2.6s ease-out;
+	left: -100px !important;
+	opacity: 1 !important;
+}
+.newsPressButTrans {
+	transition:all 2.6s ease-out;
+	top: 500px !important;
+	opacity: 1 !important;
+}
+.newsInterviewButTrans {
+	transition:all 2.6s ease-out;
+	right: -200px !important;
+	opacity: 1 !important;
+}
+.newsOtherTrans {
+	overflow: visible !important;
+	transition:opacity 3.2s ease-in;
+	opacity: 1 !important;
+	width: 400px !important;
+    height: 200px !important;
+}
+#newsToHome{
+	position:absolute;
+	top: 420px;
+	left: 670px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+
+#newsToHome:hover {
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.5;
+	transform: scale(1.2, 1.2);
+}
