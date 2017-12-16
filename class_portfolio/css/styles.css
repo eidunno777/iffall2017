@@ -1,0 +1,350 @@
+#viewPort{
+	width: 1200px;
+	height: 750px;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+button:active {
+	outline: none;
+	border: none;
+}
+button{
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+
+#introPage{
+	overflow: visible;
+	position: absolute;
+	width: 900px;
+	height: 750px;
+}
+#introText{
+	display: block;
+	background-image: url("../images/2017.jpg");
+	left: -40px;
+	top: 210px;
+	width: 900px;
+	height: 420px;
+	position: absolute;
+	background-size: cover;
+ 	background-repeat: no-repeat; 
+ 	transition: all 3s ease;
+}
+
+#enter{
+	position: absolute;
+	background-image: url("../images/enter.jpg");
+	background-size: cover;
+ 	background-repeat: no-repeat; 
+	top: 370px;
+	left: 900px;
+	width: 72px;
+	height: 72px;
+	z-index: 1000;
+    opacity: 1;
+}
+
+#enter:hover{
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	opacity: 0.3;
+}
+
+.enterTrans{
+	transition: opacity 3s ease;
+	opacity: 0 !important;
+}
+
+.introTextTrans{
+	left: -1000px !important;
+	opacity: 0 !important;
+}
+.introPageTrans{
+	overflow: hidden !important;
+}
+.container:hover .title{
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+#contentPage{
+	position: relative;
+}
+
+#contentPage1{
+	/*background-image: url("../images/buttons.jpg");*/
+	background-size: cover;
+ 	background-repeat: no-repeat; 
+	opacity: 0;
+	width: 600px;
+	height: 300px;
+	position: absolute;
+	top: -300px;
+	left: 250px;
+	transition: all 2.5s ease;
+}
+
+#lyrics{
+	width: 300px;
+	height: 300px;
+	background-size: cover;
+ 	background-repeat: no-repeat; 
+	/*background-image: url("../images/nectar.png");*/
+	position: absolute;
+}
+
+#buttons{
+	width: 300px;
+	height: 300px;
+	background-size: cover;
+ 	background-repeat: no-repeat; 
+	/*background-image: url("../images/buttons.jpg");*/
+	position: absolute;
+	left: 320px;
+}
+
+#GoT{
+	width: 300px;
+	height: 300px;
+	background-size: cover;
+ 	background-repeat: no-repeat; 
+/*	background-image: url("../images/GoT.jpg");*/
+	position: absolute;
+}
+.contentPage1Trans{
+	opacity: 1 !important;
+	top: 85px !important;
+}
+#woody{
+	width: 300px;
+	height: 300px;
+	background-size: cover;
+ 	background-repeat: no-repeat; 
+	/*background-image: url("../images/woody.png");*/
+	position: absolute;
+	left: 320px;
+}
+#contentPage2{
+	background-size: cover;
+ 	background-repeat: no-repeat; 
+	opacity: 0;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 950px;
+	left: 250px;
+	transition: all 2.5s ease;
+}
+
+.contentPage2Trans{
+	opacity: 1 !important;
+	top: 410px !important;
+}
+
+#arrow{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+	width: 80px;
+	height: 80px;
+	background-size: cover;
+ 	background-repeat: no-repeat; 
+	position: absolute;
+	top: 362px;
+	left: 1350px;
+	transition: left 2.5s ease;
+	transition: opacity: 0.4s ease;
+}
+#arrow:hover{
+	opacity: 0.4;
+}
+.arrowTrans{
+	left: 1050px !important;
+}
+#GoTText{
+	 margin-left: 70px !important;
+}
+a{
+	width:300px;
+	height:300px;
+}
+p {
+	padding-top: 120px;
+    padding-bottom: 140px;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-color: transparent !important;
+    font-size: 27px;
+    font-weight: 400;
+    margin-left: 80px;
+    top: -20px;
+    left: -100px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.7);
+    position: absolute;
+    opacity: 0;
+    color: black;
+}
+#lyricsText{
+	padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 120px;
+    padding-right: 110px;
+    left: -80px;
+    top: -30px;
+}
+#buttonText{
+	top: -25px;
+    margin-left: 100px !important;
+    margin-bottom: 20px;
+    padding-bottom: 110px;
+    padding-top: 120px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+#GoTText{
+	margin-left: 0px !important;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 105px;
+    padding-right: 105px;
+    top: -30px;
+    left: -3px;
+}
+#woodyText{
+	margin-left: 85px;
+    margin-top: 25px;
+    padding-top: 130px;
+    padding-bottom: 140px;
+    padding-left: 100px;
+    padding-right: 100px;
+    left: -85px;
+    top: -25px;
+}
+img{
+	opacity: 0.9;
+}
+.container{
+	border:2px solid black;
+	text-align: center;
+}
+.container:hover img{
+	opacity: 0.2;
+	transition: opacity .6s;
+}
+.container:hover .title{
+  opacity: 1 !important;
+  transition: opacity .6s;
+}
+
+.boxSize{
+	width: 300px;
+	height: 300px;
+}
+
+#otherText{
+	font-size: 16px;
+    font-weight: 400;
+    opacity: 0;
+    top: 391px;
+	left: 1010px;
+    position: absolute;
+    transition: all 1.5s ease;
+}
+.otherTextTrans{
+	opacity: 1 !important;
+}
+video{
+	position: absolute;
+	top:120px;
+	left: 200px;
+	box-sizing: border-box;
+	width:800px;
+	height: 500px;
+	/*object-fit: cover;*/
+	/*padding: 1%;*/
+	/*z-index: -1;*/
+}
+/*#playIcon{
+	color: solid black;
+}*/
+#playButton {
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-size: 8px;
+	position: relative;
+	left: 200px;
+	top: 600px;
+	height: 30px;
+	width: 30px;
+	border-radius: 100%;
+	border: .8px solid black;
+	box-sizing: border-box;
+	padding-left: 3px;
+	padding-top: 7px;
+}
+
+#playButton i:first-of-type {
+    font-size: 10px;
+    color: black;
+    position: relative;
+    right: -7.8px;
+    opacity: 1;
+    top: 1.5px;
+}
+
+#playButton i:last-of-type {
+	color: black;
+    font-size: 10px;
+    position: relative;
+    opacity: 1;
+    transition: all 1s ease;
+    right: 3.5px;
+    top: 2px;
+}
+#bottomBar{
+	z-index: 1000;
+}
+#playButton:hover {
+	/*border: .8px dashed black;*/
+	opacity: 0.4;
+}
+#animatic{
+	visibility: hidden;
+	transition: all 2.5s ease;
+	z-index: 1000;
+	opacity: 0;
+}
+.animaticTrans{
+	visibility: visible !important;
+	opacity: 1 !important;
+}
+
+#arrow2{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+	width: 80px;
+	height: 80px;
+	background-size: cover;
+ 	background-repeat: no-repeat; 
+	position: absolute;
+	top: 362px;
+	right: 1250px;
+	transition: right 2.5s ease;
+	transition: opacity: 0.4s ease;
+}
+#arrow2:hover{
+	opacity: 0.4;
+}
+.arrow2Trans{
+	right: 1050px !important;
+}
+#ledDJ{
+
+}

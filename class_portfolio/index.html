@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> Eddie Livingstone 2017 </title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+  	<script src="https://use.fontawesome.com/e1d3f3e930.js"></script>
+ 	<title>Login</title>
+  	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div id="whiteBox"></div>
+	<div id= viewPort>
+		<div id="introPage">
+			<div id="introText"></div>
+			<button id="enter"></button>
+		</div>
+		<div id="contentPage">
+				<div id="contentPage1">
+					<div class="container" id="buttons">
+						<img id="buttonsPic" class="boxSize" src="images/buttons.jpg">
+						<a href="https://eidunno777.github.io/iffall2017/buttons/" target="_blank">
+						<p class="title" id="buttonText">Buttons Page</p></a>
+					</div>
+					<div class="container" id="lyrics">
+						<img id="lyricsPic" class="boxSize" src="images/nectar.png">
+						<a href="https://eidunno777.github.io/iffall2017/lyrics-final/index.html" target="_blank">
+						<p class="title" id="lyricsText">Lyrics Page</p></a>
+					</div>
+				</div>
+				<div id="contentPage2">
+					<div class="container" id="GoT">
+							<img id="GoTPic" class="boxSize" src="images/GoT.jpg">
+							<a href="https://eidunno777.github.io/iffall2017/postcards/responsive/index.html" target="_blank">
+							<p class="title" id="GoTText">Postcard Triptych</p></a>
+						</div>
+					<div class="container" id="woody">
+							<img id="woodyPic" class="boxSize" src="images/woody.png">
+							<a href="https://eidunno777.github.io/iffall2017/microsite/finished/index.html" target="_blank"> 
+							<p class="title" id="woodyText">Microsite</p></a>
+					</div>
+				</div>
+			<span id="otherText">Animatic</span>
+			<button id="arrow" onclick="otherPage()"><img src="images/arrow.png" width="80"></button>
+		</div>
+		<div id="animatic">
+			<video id="myVideo" width="1300" height="800" controls>
+	  			<source src="images/Chronicles of War 1.mp4" type="video/mp4">
+	  		</video>
+	  		<!-- <iframe id="myVideo" width="1000" height="800" src="https://www.youtube.com/embed/FfE6QmuAXxU?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"></iframe> -->
+	  		<div id ="bottomBar">
+	  			<div id = "playButton">
+					<i class="fa fa-play" id="playIcon" aria-hidden="true"></i>
+					<i class="fa fa-pause" id="pauseIcon" aria-hidden="true"></i>
+				</div> 
+			</div>
+			<div id="ledDJ">
+				<a href="https://eidunno777.github.io/iffall2017/postcards/responsive/index.html" target="_blank">
+				<p class="title" id="ledText">LED DJ</p></a>
+			</div>
+		</div>
+			<button id="arrow2" onclick="otherPage()"><img src="images/arrow2.png" width="80">
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script> 
+	$("#enter").click(function(){
+		contentPage();
+	});
+	function contentPage(){
+		$("#introText").toggleClass("introTextTrans");
+		$('#introPage').toggleClass("introPageTrans");
+		$('#otherText').toggleClass("otherTextTrans");
+		$("#enter").toggleClass("enterTrans");
+		$("#contentPage1").toggleClass("contentPage1Trans");
+		$("#contentPage2").toggleClass("contentPage2Trans");
+		$("#arrow").toggleClass("arrowTrans");
+	}
+	function otherPage(){
+		$("#animatic").toggleClass("animaticTrans");
+		$("#contentPage1").toggleClass("contentPage1Trans");
+		$("#contentPage2").toggleClass("contentPage2Trans");
+		$('#otherText').toggleClass("otherTextTrans");
+		$("#arrow").toggleClass("arrowTrans");
+		$("#arrow2").toggleClass("arrow2Trans");
+	}
+
+	var video = document.getElementById("myVideo");
+	// video.autoplay = true; 
+	// video.loop = true; 
+	video.controls = false; 
+	video.ontimeupdate = function() {isDone()}
+
+	var playButton = document.getElementById("playButton");
+	playButton.addEventListener("click", pauseVideo, false); 
+
+	var playIcon = document.getElementById("playIcon");
+	var pauseIcon = document.getElementById("pauseIcon");
+
+	function isDone() {
+		if (video.currentTime >= 175) {
+			video.currentTime = 51; 
+		}
+	}
+
+	function pauseVideo() {
+	if (video.paused) {	
+		// playButton.style.borderStyle = "solid"; 
+		playIcon.style.opacity = 0;
+		pauseIcon.style.opacity = 1;
+		video.play();
+	}
+	else {
+		// playButton.style.borderStyle = "dashed"; 
+		playIcon.style.opacity = 1;		
+		pauseIcon.style.opacity = 0;
+		video.pause();
+	}
+
+}
+</script>
+</html>
